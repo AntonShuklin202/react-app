@@ -1,0 +1,37 @@
+.Products{
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 20%;
+    padding: 15px;
+    &__image img{
+        max-width: 100%;
+        width: 100%;
+        margin-top: 0;
+    }
+    &__title{
+        color: black;
+        font-weight: bold;
+        font-size: 24px;
+        margin-top: 10px;
+    }
+    &__info{
+        color: rgb(146, 146, 146);
+        margin-top: 10px;
+    }
+    &__price{
+        font-weight: bold;
+        color: black;
+        margin-top: 10px;
+    }
+    &__btn{
+        color: whitesmoke;
+        font-weight: bold;
+        width: 90%;
+        min-height: 30px;
+        outline: none;
+        border: none;
+        border-radius: 5px;
+        background-color: #08c;
+        margin-top: 10px;
+    }
+}

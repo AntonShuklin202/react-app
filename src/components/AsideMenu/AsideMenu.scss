@@ -1,11 +1,13 @@
 .AsideMenu{
-    width: 10%;
+    box-sizing: border-box;
+    width: 15%;
     position: fixed;
     left: 0;
     top: 0;
     bottom: 0;
     background-color: #2e2c2c;
     &__List{
+        text-align: center;
         color: #f5f5f5;
         font-size: medium;
         line-height: 2;
