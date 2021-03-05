@@ -1,0 +1,29 @@
+.Products{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.ProductItem{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+    &__controls{
+        border-bottom: 3px solid #dedede;
+    }
+    &__controls .back{
+        color: black;
+        font-size: 24px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    &__controls .back:hover{
+        color: rgba(0, 0, 0, 0.596);
+        text-decoration: underline;
+    }
+    &__info{
+        color: black;
+        font-weight: bold;
+        font-size: 40px;
+    }
+}
