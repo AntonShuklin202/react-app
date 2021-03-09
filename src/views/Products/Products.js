@@ -1,5 +1,6 @@
 import './Products.scss';
 import Product from '../../components/Product/Product'
+// import Request from '../../components/Request/Request'
 
 function Products() {
     let autos = [
@@ -70,6 +71,9 @@ function Products() {
     let autoItem = autos.map((auto :{id :string, imgSrc :string, title :string, info :string, price :string}, index :num) => {
         return <Product product={auto} key={index}/>
     })
+    // let autoItemR = autos.map((auto :{id :string, imgSrc :string, title :string, info :string, price :string}, index :num) => {
+    //     return <Request product={auto} key={index}/>
+    // })
     return (
         <div className="Products">
             {autoItem}
