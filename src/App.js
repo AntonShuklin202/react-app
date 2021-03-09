@@ -23,6 +23,8 @@ function App() {
           <Route exact path="/products/:id">
             <ProductItem/>
           </Route>
+          <Route path="/cabinet">
+          </Route>
           <Route path="*">
             <NotFound404/>
           </Route>

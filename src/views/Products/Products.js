@@ -67,7 +67,7 @@ function Products() {
             price: '$80 000'
         }
     ]
-    let autoItem = autos.map((auto :{index :string, imgSrc :string, title :string, info :string, price :string}, index :num) => {
+    let autoItem = autos.map((auto :{id :string, imgSrc :string, title :string, info :string, price :string}, index :num) => {
         return <Product product={auto} key={index}/>
     })
     return (
